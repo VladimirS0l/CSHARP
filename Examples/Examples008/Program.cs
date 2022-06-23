@@ -7,7 +7,7 @@ int dogSpeed = 5;
 int friend = 2;
 int time;
 
-if(distance > 10)
+while(distance > 10)
 {
     if(friend == 1)
     {
@@ -29,3 +29,4 @@ if(distance > 10)
 Console.Write("Собака пробежала ");
 Console.Write(count);
 Console.WriteLine(" раз");
+
